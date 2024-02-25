@@ -1,8 +1,2 @@
-var email = 'contact@rodrigues.com';
-var password = '363';
-
-if (email == 'contact@rodrigues.com' && password == '333') {
-    alert('login successful');
-} else {
-    alert('username or login is incorrect');
-}
+document.getElementsByClassName('Inicial')[0].innerHTML('teste') = 'TESTE DE SELEÇÃO';
+document.getElementById('texto').innerHTML = "Este é um texto inserido pelo JS";
